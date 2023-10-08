@@ -1,0 +1,14 @@
+version: '1'
+services:
+  main_app:
+    build: consumer
+  db:
+    build: db
+    ports:
+      - "8100:8080"
+    volumes:
+      - /pb/pb_data
+  frontend:
+    build: frontend
+    ports:
+      - "8200:8501"
