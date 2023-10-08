@@ -7,8 +7,8 @@ This application uses pocketbase to locally host the database as well as streaml
 The applications are port forwarded through docker so if you click the links in the logs they will not work
 
 Instead visit these domains to view the application
-view the frontend at localhost:8200
-view the database admin console at localhost:8100/_/
+> view the frontend at localhost:8200
+> view the database admin console at localhost:8100/_/
 The username and password are `admin@gmail.com` and `password123`
 
 ## Components
